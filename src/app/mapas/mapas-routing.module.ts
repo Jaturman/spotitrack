@@ -6,17 +6,16 @@ import { MarcadoresComponent } from './pages/marcadores/marcadores.component';
 import { PropiedadesComponent } from './pages/propiedades/propiedades.component';
 
 const routes: Routes = [
-
-  {
-    path: '',
-    children: [
-      { path: 'fullscreen', component: FullScreenComponent },
-      { path: 'zoom-range', component: ZoomRangeComponent },
-      { path: 'marcadores', component: MarcadoresComponent },
-      { path: 'propiedades', component: PropiedadesComponent },
-      { path: '**', redirectTo: 'fullscreen' },
-    ]
-  }
+{
+  path: '',
+  children: [
+    {path : 'fullscreen', component: FullScreenComponent },
+    {path : 'zoom-range', component: ZoomRangeComponent },
+    {path : 'marcadores', component: MarcadoresComponent },
+    {path : 'propiedades', component: PropiedadesComponent },
+    {path : '**', redirectTo: 'fullscreen' }
+  ]
+}
 
 ];
 
