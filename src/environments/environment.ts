@@ -4,8 +4,7 @@
 
 export const environment = {
   production: false,
-  mapboxToken : 'pk.eyJ1IjoiamF0dXJtYW4iLCJhIjoiY2t0cGttbWtvMGRvMTJvbDMwcGI5Z2gydCJ9.2h4ERsh-etFhdWxy24Ipcg'
-
+  mapboxToken: 'pk.eyJ1Ijoia2xlcml0aCIsImEiOiJja2puMHhrODI1NG95MnJwOTZldjAwd2xuIn0.qSVIwYh9D-wVyzUne3euog'
 };
 
 /*

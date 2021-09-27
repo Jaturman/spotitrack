@@ -1,21 +1,17 @@
 import { Component, OnInit } from '@angular/core';
-// fíjate que la magía viene realmente de importar el objeto (nombre de este indicado en la documentacion) y el nombre de la biblioteca, simplemente.
-import * as mapboxgl from 'mapbox-gl';
-import { environment } from '../environments/environment';
+import * as mapboxgl from 'mapbox-gl'
+
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit{
-  public wrapper: boolean = true;
-  constructor(){
-
-  }
-
+export class AppComponent implements OnInit {
+  
   ngOnInit(): void {
-    console.log("app.component works!");
     (mapboxgl as any).accessToken = environment.mapboxToken;
   }
+  
 }

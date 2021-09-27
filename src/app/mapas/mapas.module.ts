@@ -10,12 +10,12 @@ import { PropiedadesComponent } from './pages/propiedades/propiedades.component'
 
 
 @NgModule({
-declarations: [
-  MiniMapaComponent,
-  FullScreenComponent,
-  MarcadoresComponent,
-  ZoomRangeComponent,
-  PropiedadesComponent
+  declarations: [
+    MiniMapaComponent,
+    FullScreenComponent,
+    MarcadoresComponent,
+    ZoomRangeComponent,
+    PropiedadesComponent
   ],
   imports: [
     CommonModule,
